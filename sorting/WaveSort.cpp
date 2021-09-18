@@ -8,6 +8,7 @@ void swap(int &x, int &y){
     y = temp;
 }
 
+// Wave Sort algorithm
 void waveSort(int arr[], int n){
     int i = 1;
     while(i<n){
